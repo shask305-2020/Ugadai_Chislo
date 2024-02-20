@@ -15,6 +15,7 @@ namespace Ugadai_Chislo
             Random random = new Random();
             int ZagChislo = random.Next(0, 10);
             Console.WriteLine(ZagChislo);
+            Console.Write("\n");
             int n = 0;
             while (true)
             {
